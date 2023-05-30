@@ -18,7 +18,9 @@ namespace RPGgamedemo
         private Player CurrentPlayer;
         private Charactor CurrentEnemy;
         private List <Charactor> Enemies;
-
+        /// <summary>
+        /// 
+        /// </summary>
         public Game()
         {
             Seizark fireAuntie = new Seizark("Fire Auntie",5,ConsoleColor.Red, 3);
