@@ -10,6 +10,7 @@ namespace RPGgamedemo
     {
         static void Main(string[] args)
         {
+            // Test
             Console.Title = "Micro RPG";
 
             Game myGame = new Game();

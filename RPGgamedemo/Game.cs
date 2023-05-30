@@ -1,12 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
-using System.Threading.Tasks;
 using static System.Console;
 using Figgle;
 namespace RPGgamedemo
@@ -18,7 +11,7 @@ namespace RPGgamedemo
         private Player CurrentPlayer;
         private Charactor CurrentEnemy;
         private List <Charactor> Enemies;
-        //text
+
         public Game()
         {
             Seizark fireAuntie = new Seizark("Fire Auntie",5,ConsoleColor.Red, 3);
